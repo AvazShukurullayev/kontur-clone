@@ -83,3 +83,318 @@
 
 
 </div>
+
+
+
+<!-- online-services started -->
+          <div class="online-services">
+            <div class="online-services__cards">
+              <div class="online-services__card">
+                <h3 class="online-services__card-title">Онлайн-сервисы</h3>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/edi-32.svg.svg"
+                      alt="edi svg"
+                    />
+                    EDI
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/buhgalteria-32.svg.svg"
+                      alt="Бухгалтерия svg"
+                    />
+                    Бухгалтерия
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/gosoblako-32.svg.svg"
+                      alt="Гособлако svg"
+                    />
+                    Гособлако
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/declarant-32.svg.svg"
+                      alt="Декларант svg"
+                    />
+                    Декларант
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/diadoc-32.svg.svg"
+                      alt="Диадок svg"
+                    />
+                    Диадок
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/dostup-32.svg.svg"
+                      alt="Доступ svg"
+                    />
+                    Доступ
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/zakupki-32.svg.svg"
+                      alt="Закупки svg"
+                    />
+                    Закупки
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/compass-32.svg.svg"
+                      alt="Компас svg"
+                    />
+                    Компас
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/market-32.svg.svg"
+                      alt="Маркет svg"
+                    />
+                    Маркет
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/markirovka-32.svg.svg"
+                      alt="Маркировка svg"
+                    />
+                    Маркировка
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/mercury-32.svg.svg"
+                      alt="Меркурий svg"
+                    />
+                    Меркурий
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/tax-monitor-32.svg.svg"
+                      alt="Налоговый мониторинг svg"
+                    />
+                    Налоговый мониторинг
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/nds-plus-32.svg.svg"
+                      alt="НДС+ svg"
+                    />
+                    НДС+
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/normativ-32.svg.svg"
+                      alt="Норматив svg"
+                    />
+                    Норматив
+                  </a>
+                </div>
+              </div>
+              <div class="online-services__card">
+                <!-- <h3 class="online-services__card-title">Lorem, ipsum.</h3> -->
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/hotel-32.svg.svg"
+                      alt="Отель svg"
+                    />
+                    Отель
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/otchetru-32.svg.svg"
+                      alt="Отчет.ру svg"
+                    />
+                    Отчет.ру
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/ofd-32.svg.svg"
+                      alt="ОФД svg"
+                    />
+                    ОФД
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/prizma-32.svg.svg"
+                      alt="Призма svg"
+                    />
+                    Призма
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/real-estate-reestro-32.svg.svg"
+                      alt="Реестро svg"
+                    />
+                    Реестро
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/sign-32.svg.svg"
+                      alt="Сайн svg"
+                    />
+                    Сайн
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/medi-32.svg.svg"
+                      alt="Страхование svg"
+                    />
+                    Страхование
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/talk-32.svg.svg"
+                      alt="Толк svg"
+                    />
+                    Толк
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/travel-32.svg.svg"
+                      alt="Тревел svg"
+                    />
+                    Тревел
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/factoring-32.svg.svg"
+                      alt="Факторинг svg"
+                    />
+                    Факторинг
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/focus-32.svg.svg"
+                      alt="Фокус svg"
+                    />
+                    Фокус
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/expert-32.svg.svg"
+                      alt="Эксперт svg"
+                    />
+                    Эксперт
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/extern-32.svg.svg"
+                      alt="Экстерн svg"
+                    />
+                    Экстерн
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/elba-32.svg.svg"
+                      alt="Эльба svg"
+                    />
+                    Эльба
+                  </a>
+                </div>
+              </div>
+              <div class="online-services__card">
+                <h3 class="online-services__card-title">Услуги</h3>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/school-academy-32.svg.svg"
+                      alt="Академия svg"
+                    />
+                    Академия
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/security-32.svg.svg"
+                      alt="Безопасность svg"
+                    />
+                    Безопасность
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/support-trades-32.svg.svg"
+                      alt="Сопровождение торгов svg"
+                    />
+                    Сопровождение торгов
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/ca-32.svg.svg"
+                      alt="Удостоверяющий центр svg"
+                    />
+                    Удостоверяющий центр
+                  </a>
+                </div>
+                <div class="online-services__card-item">
+                  <a href="#!" class="online-services__card-link">
+                    <img
+                      src="../images/online-services-img/school-32.svg.svg"
+                      alt="Школа svg"
+                    />
+                    Школа
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- online-services finished -->
