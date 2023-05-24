@@ -53,3 +53,22 @@ ul {
   font-size: 50px;
   line-height: 2;
 }
+
+@media screen and (max-width: 767px) {
+  .title-center {
+     font-size: 45px;
+  line-height: 2;
+  }
+}
+@media screen and (max-width: 500px) {
+  .title-center {
+     font-size: 40px;
+  line-height: 2;
+  }
+}
+@media screen and (max-width: 400px) {
+  .title-center {
+     font-size: 35px;
+  line-height: 2;
+  }
+}

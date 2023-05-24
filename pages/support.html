@@ -1,18 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/support.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap styles started -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap styles finished -->
+
+    <!-- font-awesome started -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font-awesome finished -->
+
+    <!-- css style started -->
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/top-nav.css" />
+    <link rel="stylesheet" href="../css/support.css" />
+    <!-- css style finished -->
     <title>Support</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- top-nav started -->
+    <div class="top-nav">
+      <div class="container">
+        <div class="top-nav__upper">
+          <h2 class="top-nav__title">Вход в сервисы Контура</h2>
+          <div class="top-nav__close-button">
+            <div class="close-line-1"></div>
+            <div class="close-line-2"></div>
+          </div>
+          <!-- <button class="btn btn-outline-dark top-nav__close-button">X</button> -->
+        </div>
+        <div class="top-nav__cards">
+          <div class="top-nav__card">
+            <ul class="top-nav__services-list">
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/edi-32.svg.svg"
+                    alt="edi"
+                  />
+                  EDI</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/edi-32.svg.svg"
+                    alt="EDI: Малая розница"
+                  />
+                  EDI: Малая розница
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/market-32.svg.svg"
+                    alt="Алкодекларация"
+                  />
+                  Алкодекларация
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/buhgalteria-32.svg.svg"
+                    alt="Бухгалтерия"
+                  />
+                  Бухгалтерия
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/declarant-32.svg.svg"
+                    alt="Взаиморасчёты"
+                  />
+                  Взаиморасчёты
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/declarant-32.svg.svg"
+                    alt="Деклорант"
+                  />
+                  Деклорант
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/diadoc-32.svg.svg"
+                    alt="Диадок"
+                  />
+
+                  Диадок
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/dostup-32.svg.svg"
+                    alt="Доступ"
+                  />
+                  Доступ
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/zakupki-32.svg.svg"
+                    alt="Закупки"
+                  />
+                  Закупки
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/zakupki-32.svg.svg"
+                    alt="Закупки: Снаб"
+                  />
+                  Закупки: Снаб
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/support-trades-32.svg.svg"
+                    alt="Кабинет УЦ"
+                  />
+
+                  Кабинет УЦ
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/compass-32.svg.svg"
+                    alt="Компас"
+                  />
+                  Компас
+                </a>
+              </li>
+            </ul>
+            <ul class="top-nav__services-list">
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/sign-32.svg.svg"
+                    alt="Крипто"
+                  />
+                  Крипто
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/sign-32.svg.svg"
+                    alt="КЭДО"
+                  />
+                  КЭДО
+                </a>
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/gosoblako-32.svg.svg"
+                    alt="Логистика"
+                  />
+                  Логистика</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/market-32.svg.svg"
+                    alt="Маркет"
+                  />
+                  Маркет</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/markirovka-32.svg.svg"
+                    alt="Маркировка"
+                  />
+                  Маркировка</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/markirovka-32.svg.svg"
+                    alt="Маркировка Фарма"
+                  />
+                  Маркировка Фарма</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/nds-plus-32.svg.svg"
+                    alt="НДС+"
+                  />
+                  НДС+</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/normativ-32.svg.svg"
+                    alt="Норматив"
+                  />
+                  Норматив</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/hotel-32.svg.svg"
+                    alt="Отель"
+                  />
+                  Отель</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/hotel-32.svg.svg"
+                    alt="Отель: ФМС"
+                  />
+                  Отель: ФМС</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/otchetru-32.svg.svg"
+                    alt="Отчет.ру"
+                  />
+                  Отчет.ру</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/ofd-32.svg.svg"
+                    alt="ОФД"
+                  />
+                  ОФД</a
+                >
+              </li>
+            </ul>
+            <ul class="top-nav__services-list">
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/ofd-32.svg.svg"
+                    alt="ОФД"
+                  />
+                  ОФД</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/prizma-32.svg.svg"
+                    alt="Призма"
+                  />
+                  Призма</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/real-estate-reestro-32.svg.svg"
+                    alt="Реестро"
+                  />
+                  Реестро</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/security-32.svg.svg"
+                    alt="Страхование"
+                  />
+                  Страхование</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/talk-32.svg.svg"
+                    alt="Толк"
+                  />
+                  Толк</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/factoring-32.svg.svg"
+                    alt="Факторинг"
+                  />
+                  Факторинг</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/focus-32.svg.svg"
+                    alt="Фокус"
+                  />
+                  Фокус</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/school-32.svg.svg"
+                    alt="Школа"
+                  />
+                  Школа</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/expert-32.svg.svg"
+                    alt="Эксперт"
+                  />
+                  Эксперт</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/extern-32.svg.svg"
+                    alt="Экстерн"
+                  />
+                  Экстерн</a
+                >
+              </li>
+              <li class="top-nav__item">
+                <a href="#!" class="top-nav__link"
+                  ><img
+                    src="../images/online-services-img/elba-32.svg.svg"
+                    alt="Эльба"
+                  />
+                  Эльба</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="top-nav__card">
+            <ul class="top-nav__user-list">
+              <li class="top-nav__user-item">
+                <a href="#!" class="top-nav__user-link">Личный кабинет</a>
+              </li>
+              <li class="top-nav__user-item">
+                <a href="#!" class="top-nav__user-link">Бонусная программа</a>
+              </li>
+              <li class="top-nav__user-item">
+                <a href="#!" class="top-nav__user-link">Кабинет партнера</a>
+              </li>
+              <li class="top-nav__user-item">
+                <a href="#!" class="top-nav__user-link">Регистрация</a>
+              </li>
+              <li class="top-nav__user-item">
+                <a href="#!" class="top-nav__user-link">Войти</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top-nav finished -->
+
     <!-- header started -->
     <header id="header" class="header">
-        <div class="container">
-            <nav class="nav">
+      <div class="container">
+        <nav class="nav">
           <a href="../index.html" class="nav__logo">
             <img
               class="nav__img"
@@ -32,26 +415,470 @@
             <button class="nav__enter-button" type="button">
               Вход в сервисы
             </button>
+            <!-- burger started -->
+            <div class="burger">
+              <div class="burger-line-1"></div>
+              <div class="burger-line-2"></div>
+              <div class="burger-line-3"></div>
+            </div>
+            <!-- burger finished -->
           </div>
+          <!-- burger-block started -->
+          <div class="burger-block">
+            <ul class="burger-block__list">
+              <li class="burger-block__item">
+                <a class="burger-block__link" href="../pages/products.html">
+                  Все продукты
+                </a>
+              </li>
+              <li class="burger-block__item">
+                <a class="burger-block__link" href="../pages/support.html">
+                  Техподдержка
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- burger-block finished -->
         </nav>
-        </div>
+      </div>
     </header>
     <!-- header finished -->
 
     <!-- main started -->
     <main id="main" class="main">
-      <section>
+      <!-- hero-section started -->
+      <section id="hero-section" class="hero-section">
         <div class="container">
-          <h1 class="title-center">Техподдержка</h1>
+          <h1 class="hero__title">Техподдержка</h1>
+          <!-- support-section started -->
+          <div class="support__cards">
+            <div class="support__card">
+              <div class="support__card-circle">
+                <img src="../images/support-images/support-chat.svg" alt="support chat" />
+              </div>
+              <div class="support__card-info">
+                <a href="#!" class="support__card-link">Написать в чат</a>
+                <p class="support__card-subtitle">Поможем круглосуточно</p>
+              </div>
+            </div>
+            <div class="support__card">
+              <div class="support__card-circle">
+                <img src="../images/support-images/support-message.svg" alt="support message" />
+              </div>
+              <div class="support__card-info">
+                <a href="#!" class="support__card-link">Написать письмо</a>
+                <p class="support__card-subtitle">Ответим в течение дня</p>
+              </div>
+            </div>
+            <div class="support__card">
+              <div class="support__card-circle">
+                <img src="../images/support-images/support-spravka.svg" alt="support spravka" />
+              </div>
+              <div class="support__card-info">
+                <a href="#!" class="support__card-link">Справка по продуктам</a>
+                <p class="support__card-subtitle">Все самое полезное</p>
+              </div>
+            </div>
+          </div>
+          <!-- support-section finished -->
+          <!-- online-services started -->
+          <div class="online-services">
+            <h2 class="online-services__title">Техподдержка продуктов</h2>
+            <div class="online-services__cards">
+              <div class="online-services__card">
+                <h3 class="online-services__card-title">Онлайн-сервисы</h3>
+                <ul class="online-services__list">
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/edi-32.svg.svg"
+                        alt="edi svg"
+                      />
+                      EDI
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/buhgalteria-32.svg.svg"
+                        alt="Бухгалтерия svg"
+                      />
+                      Бухгалтерия
+                    </a>
+                  </li>
+
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/gosoblako-32.svg.svg"
+                        alt="Гособлако svg"
+                      />
+                      Гособлако
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/declarant-32.svg.svg"
+                        alt="Декларант svg"
+                      />
+                      Декларант
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/diadoc-32.svg.svg"
+                        alt="Диадок svg"
+                      />
+                      Диадок
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/dostup-32.svg.svg"
+                        alt="Доступ svg"
+                      />
+                      Доступ
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/zakupki-32.svg.svg"
+                        alt="Закупки svg"
+                      />
+                      Закупки
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/compass-32.svg.svg"
+                        alt="Компас svg"
+                      />
+                      Компас
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/market-32.svg.svg"
+                        alt="Маркет svg"
+                      />
+                      Маркет
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/markirovka-32.svg.svg"
+                        alt="Маркировка svg"
+                      />
+                      Маркировка
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/mercury-32.svg.svg"
+                        alt="Меркурий svg"
+                      />
+                      Меркурий
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/tax-monitor-32.svg.svg"
+                        alt="Налоговый мониторинг svg"
+                      />
+                      Налоговый мониторинг
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/nds-plus-32.svg.svg"
+                        alt="НДС+ svg"
+                      />
+                      НДС+
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/normativ-32.svg.svg"
+                        alt="Норматив svg"
+                      />
+                      Норматив
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="online-services__card">
+                <!-- <h3 class="online-services__card-title">Lorem, ipsum.</h3> -->
+                <ul class="online-services__list">
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/hotel-32.svg.svg"
+                        alt="Отель svg"
+                      />
+                      Отель
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/otchetru-32.svg.svg"
+                        alt="Отчет.ру svg"
+                      />
+                      Отчет.ру
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/ofd-32.svg.svg"
+                        alt="ОФД svg"
+                      />
+                      ОФД
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/prizma-32.svg.svg"
+                        alt="Призма svg"
+                      />
+                      Призма
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/real-estate-reestro-32.svg.svg"
+                        alt="Реестро svg"
+                      />
+                      Реестро
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/sign-32.svg.svg"
+                        alt="Сайн svg"
+                      />
+                      Сайн
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/medi-32.svg.svg"
+                        alt="Страхование svg"
+                      />
+                      Страхование
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/talk-32.svg.svg"
+                        alt="Толк svg"
+                      />
+                      Толк
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/travel-32.svg.svg"
+                        alt="Тревел svg"
+                      />
+                      Тревел
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/factoring-32.svg.svg"
+                        alt="Факторинг svg"
+                      />
+                      Факторинг
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/focus-32.svg.svg"
+                        alt="Фокус svg"
+                      />
+                      Фокус
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/expert-32.svg.svg"
+                        alt="Эксперт svg"
+                      />
+                      Эксперт
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/extern-32.svg.svg"
+                        alt="Экстерн svg"
+                      />
+                      Экстерн
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/elba-32.svg.svg"
+                        alt="Эльба svg"
+                      />
+                      Эльба
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="online-services__card">
+                <h3 class="online-services__card-title">Услуги</h3>
+                <ul class="online-services__list">
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/school-academy-32.svg.svg"
+                        alt="Академия svg"
+                      />
+                      Академия
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/security-32.svg.svg"
+                        alt="Безопасность svg"
+                      />
+                      Безопасность
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/support-trades-32.svg.svg"
+                        alt="Сопровождение торгов svg"
+                      />
+                      Сопровождение торгов
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/ca-32.svg.svg"
+                        alt="Удостоверяющий центр svg"
+                      />
+                      Удостоверяющий центр
+                    </a>
+                  </li>
+                  <li class="online-services__item">
+                    <a href="#!" class="online-services__link">
+                      <img
+                        src="../images/online-services-img/school-32.svg.svg"
+                        alt="Школа svg"
+                      />
+                      Школа
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- online-services finished -->
+
+          <!-- pc-programs started -->
+          <div class="pc-programs">
+            <h2 class="pc-programs__title">Программы для ПК</h2>
+            <ul class="pc-programs__list">
+              <div>
+                <li class="pc-programs__item">
+                  <a href="#!" class="pc-programs__link">
+                    <img
+                      src="../images/programs for PC/buhgalteria-activ-32.svg.svg"
+                      alt="Бухгалтерия Актив"
+                    />
+                    Бухгалтерия Актив
+                  </a>
+                </li>
+                <li class="pc-programs__item">
+                  <a href="#!" class="pc-programs__link">
+                    <img
+                      src="../images/programs for PC/buhgalteria-budjet-32.svg.svg"
+                      alt="Бухгалтерия Бюджет"
+                    />
+                    Бухгалтерия Бюджет
+                  </a>
+                </li>
+              </div>
+              <div>
+                <li class="pc-programs__item">
+                  <a href="#!" class="pc-programs__link">
+                    <img
+                      src="../images/programs for PC/jkh-32.svg.svg"
+                      alt="ЖКХ"
+                    />
+                    ЖКХ
+                  </a>
+                </li>
+                <li class="pc-programs__item">
+                  <a href="#!" class="pc-programs__link">
+                    <img
+                      src="../images/programs for PC/zarplata-32.svg.svg"
+                      alt="Зарплата"
+                    />
+                    Зарплата
+                  </a>
+                </li>
+              </div>
+              <div>
+                <li class="pc-programs__item">
+                  <a href="#!" class="pc-programs__link">
+                    <img
+                      src="../images/programs for PC/personal-32.svg.svg"
+                      alt="Персонал"
+                    />
+                    Персонал
+                  </a>
+                </li>
+                <li class="pc-programs__item">
+                  <a href="#!" class="pc-programs__link">
+                    <img
+                      src="../images/programs for PC/soczaschita-32.svg.svg"
+                      alt="Соцзащита  "
+                    />
+                    Соцзащита
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+          <!-- pc-programs finished -->
         </div>
       </section>
+      <!-- hero-section finished -->
     </main>
     <!-- main finished -->
 
     <!-- footer started -->
     <footer id="footer" class="footer">
-        <div class="container">
- <!-- footer__nav started -->
+      <div class="container">
+        <!-- footer__nav started -->
         <nav class="footer__nav">
           <ul class="footer__nav-list">
             <li class="footer__nav-item">
@@ -203,19 +1030,32 @@
                 class="footer__services-socials-img"
                 src="../images/socials/english-flag.png"
                 alt="english flag"
-              />In English
+              />
+              In English
             </p>
           </div>
         </div>
         <!-- footer__services finished -->
-        </div>
+      </div>
     </footer>
     <!-- footer finished -->
 
     <!-- support-center started -->
     <button class="support-center">
-        <img src="../images/support-center/support-center-img.png" alt="support-center">
+      <img
+        src="../images/support-center/support-center-img.png"
+        alt="support-center"
+      />
     </button>
     <!-- support-center finished -->
-</body>
+
+    <!-- script started -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/app.js"></script>
+    <!-- script finished -->
+  </body>
 </html>
