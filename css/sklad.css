@@ -151,9 +151,9 @@ svg:hover {
 .sklad-dark {
   /* padding: 200px 0; */
   padding: 50px 0;
-    background:  #00000073 linear-gradient(to top, #000,transparent,transparent,transparent) ;
+  background: #00000073
+    linear-gradient(to top, #000, transparent, transparent, transparent);
   /* background: #00000075; */
-
 }
 .sklad-title {
   color: #ffffff;
@@ -172,7 +172,7 @@ svg:hover {
   width: calc(100% / 4 - 15px);
   /* min-height: 350px; */
   /* max-height: 450px; */
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.75);
   box-shadow: 5px 5px 15px rgb(255, 255, 255, 0.8);
@@ -180,7 +180,7 @@ svg:hover {
   margin: 15px 0;
 }
 .sklad__card-image {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   height: 200px;
   transition: all 0.25s ease-in;
 }
@@ -205,7 +205,7 @@ svg:hover {
   object-position: center top;
 }
 .sklad__card-desc {
-  padding: 20px 0;
+  padding-top: 10px;
 }
 .sklad__card-title {
   color: #fff;
@@ -221,9 +221,17 @@ svg:hover {
   background-position: center;
 }
 .work-dark {
-  background:  linear-gradient(to bottom, #000,transparent,transparent,transparent ),#00000073 linear-gradient(to top, #000,transparent,transparent,transparent) ;
+  background: linear-gradient(
+      to bottom,
+      #000,
+      transparent,
+      transparent,
+      transparent
+    ),
+    #00000073
+      linear-gradient(to top, #000, transparent, transparent, transparent);
   /* box-shadow: 5px 5px 15px rgb(255, 255, 255, 0.5); */
-  padding: 200px 0;
+  padding: 100px 0;
 }
 .work__title {
   color: #fff;
@@ -235,11 +243,23 @@ svg:hover {
 .work__cards-horizontal {
   display: flex;
   justify-content: space-between;
-  column-gap: 20px;
-  /* overflow-x: auto; */
+  column-gap: 25px;
+  overflow-x: auto;
+}
+.work__cards-horizontal::-webkit-scrollbar {
+  height: 6px;
+}
+.work__cards-horizontal::-webkit-scrollbar-track {
+  background: transparent;
+  /* border-radius: 6px; */
+}
+.work__cards-horizontal::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
 }
 .work__card-hozirontal {
-  width: max-content;
+  max-width: max-content;
+  width: 100%;
   display: flex;
   align-items: center;
   column-gap: 15px;
@@ -248,12 +268,13 @@ svg:hover {
   border: 1px solid #fff;
   border-radius: 25px;
   cursor: pointer;
+  margin-bottom: 15px;
   transition: all 0.25s ease-in-out;
 }
 .work__card-hozirontal:hover {
   color: dodgerblue;
   border-color: dodgerblue;
-  transform: scale(1.1);
+  transform: scaleX(1.1);
 }
 /*? work-section finished */
 
@@ -266,7 +287,15 @@ svg:hover {
   background-position: center;
 }
 .solution-dark {
-   background:  linear-gradient(to bottom, #000,transparent,transparent,transparent ),#00000073 linear-gradient(to top, #000,transparent,transparent,transparent) ;
+  background: linear-gradient(
+      to bottom,
+      #000,
+      transparent,
+      transparent,
+      transparent
+    ),
+    #00000073
+      linear-gradient(to top, #000, transparent, transparent, transparent);
   /* box-shadow: 5px 5px 15px rgb(255, 255, 255, 0.5); */
   padding: 150px 0;
 }
@@ -303,7 +332,15 @@ svg:hover {
   background-position: center;
 }
 .footer-dark {
-    background:  linear-gradient(to bottom, #000,transparent,transparent,transparent ),#00000073 linear-gradient(to top, #000,transparent,transparent,transparent) ;
+  background: linear-gradient(
+      to bottom,
+      #000,
+      transparent,
+      transparent,
+      transparent
+    ),
+    #00000073
+      linear-gradient(to top, #000, transparent, transparent, transparent);
   /* box-shadow: 5px 5px 15px rgb(255, 255, 255, 0.3); */
   padding: 120px 0 80px;
 }
@@ -329,6 +366,10 @@ svg:hover {
   line-height: 20px;
   color: #fff;
   margin-bottom: 8px;
+  transition: all 0.25s ease-in-out;
+}
+.footer__nav-link:hover {
+  color: dodgerblue;
 }
 .footer__services {
   display: flex;
@@ -398,6 +439,9 @@ svg:hover {
 
 /*? media query started */
 @media screen and (max-width: 1200px) {
+  .sklad__card {
+    width: calc(100% / 4 - 5px);
+  }
   .footer__nav {
     flex-wrap: wrap;
   }
@@ -431,6 +475,9 @@ svg:hover {
   .hero__icons-item {
     padding: 8px 12px;
     border-radius: 24px;
+  }
+  .sklad__card {
+    width: calc(100% / 3 - 10px);
   }
 }
 @media screen and (max-width: 991px) {
@@ -516,8 +563,32 @@ svg:hover {
   .top-nav__services-list {
     width: 100%;
   }
+  .nav__login-button {
+    margin-left: 10px;
+  }
+  .burger {
+    margin-left: 10px;
+  }
+  .sklad-title {
+    font-size: 48px;
+    margin: 70px 0;
+  }
   .sklad-title {
     font-size: 60px;
+  }
+  .work__title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+  .solution__title {
+    font-size: 32px;
+  }
+  .solution__desc {
+    font-size: 17px;
+  }
+  .sklad__card:hover .sklad__card-image {
+    transform: scale(1);
   }
 }
 @media screen and (max-width: 600px) {
@@ -573,6 +644,10 @@ svg:hover {
     height: 32px;
     padding: 11px 13px 13px;
   }
+  .nav__register-button,
+  .nav__login-button {
+    padding: 11px 11px 13px;
+  }
   .burger {
     margin-left: 15px;
   }
@@ -593,7 +668,7 @@ svg:hover {
 @media screen and (max-width: 450px) {
   .nav__logo {
     display: inline-block;
-    width: 40%;
+    width: max-content;
   }
   .nav__logo img {
     width: 100%;
@@ -607,6 +682,12 @@ svg:hover {
   .top-nav__link,
   .top-nav__user-link {
     font-size: 15px;
+  }
+  .nav__register-button,
+  .nav__login-button {
+    height: 35px;
+    padding: 8px 5px 10px;
+    font-size: 14px;
   }
   .sklad-title {
     font-size: 40px;
@@ -657,6 +738,9 @@ svg:hover {
 @media screen and (max-width: 340px) {
   .top-nav__title {
     font-size: 19px;
+  }
+  .nav__logo {
+    font-size: 22px;
   }
   .sklad-title {
     font-size: 30px;
